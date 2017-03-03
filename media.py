@@ -1,5 +1,7 @@
 import webbrowser
 class Movie():
+    """This is a media class which can be used to define movie properties"""
+    VAR_RATINGS = ["G","PG","R"]
     def __init__(self,movie_title,movie_storyline,poster_image,trailer_youtube):
         self.title = movie_title
         self.storyline = movie_storyline
